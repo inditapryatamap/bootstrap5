@@ -1,0 +1,49 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+.jumbotron {
+    padding-top: 45px;
+    background-color: #ccc;
+    min-height: 500px;
+}
+
+.jumbotron img {
+    border: 3px solid #aaa;
+}
+
+.about hr,
+.portofolio hr,
+.contact hr {
+    width: 250px;
+}
+
+section {
+    min-height: 600px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #333;
+}
+
+footer p {
+    color: white;
+    padding-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: salmon;
+}
